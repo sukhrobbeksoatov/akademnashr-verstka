@@ -57,6 +57,7 @@
     filter: drop-shadow(24px 24px 0px rgba(255, 117, 0, 0.6));
     transform: translateY(40px);
     width: 100%;
+    height: auto;
 
     @media only screen and (max-width: $tablet-l) {
       filter: none;
