@@ -169,7 +169,6 @@ body {
 .hero-section__wrapper {
   display: flex;
   align-items: center;
-  position: relative;
   justify-content: space-between;
 }
 @media only screen and (max-width: 992px) {
@@ -211,6 +210,7 @@ body {
 }
 .hero-section__image {
   display: flex;
+  align-items: center;
   width: 50%;
 }
 @media only screen and (max-width: 768px) {
@@ -227,6 +227,6 @@ body {
 @media only screen and (max-width: 992px) {
   .hero-section__img {
     filter: none;
-    transform: translateY(0);
+    transform: none;
   }
 }/*# sourceMappingURL=main.css.map */
